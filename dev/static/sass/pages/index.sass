@@ -1,0 +1,369 @@
+.section-who
+  padding: 90px 0
+  text-align: center
+  h2
+    margin-bottom: 50px
+    font-family: $mainBoldFont
+    font-size: 28px
+    &:before
+      content: ''
+      display: block
+      margin: 0 auto 20px
+      background: url(../img/general/sprite.png) -263px 0
+      width: 39px
+      height: 39px
+  p
+    width: 100%
+    max-width: 970px
+    margin: 0 auto
+    line-height: 30px
+
+.section-advantages
+  text-align: center
+  padding: 90px 0
+  .advantages-item
+    display: inline-block
+    width: 25%
+    margin: 0 45px
+    text-align: left
+    position: relative
+    padding-top: 60px
+    line-height: 28px
+    h3
+      margin-bottom: 30px
+    h3:before
+      content: ''
+      display: block
+      position: absolute
+      left: 0
+      top: 0
+      margin-bottom: 25px
+    &:nth-child(1)
+      h3:before
+        height: 33px
+        width: 37px
+        background: url(../img/general/clock.png) center no-repeat
+    &:nth-child(2)
+      h3:before
+        height: 33px
+        width: 36px
+        background: url(../img/general/vector.png) center no-repeat
+    &:nth-child(3)
+      margin-right: 0
+      h3:before
+        height: 38px
+        width: 47px
+        background: url(../img/general/tractor.png) center no-repeat
+
+.section-featured-articles
+  position: relative
+  min-width: 480px
+  .container
+    padding: 0 21px
+  padding: 90px 0
+  text-align: center
+  h2
+    margin-bottom: 80px
+    font-family: $mainBoldFont
+    font-size: 28px
+  p
+    font-size: 16px
+    max-width: 970px
+    margin: 0 auto 80px
+    line-height: 34px
+  .featured-items
+    overflow: hidden
+    .owl-item
+      display: inline-block
+    .featured-item
+      display: inline-block
+      vertical-align: top
+      padding: 60px 60px 40px 40px
+      background-color: #222
+      text-align: left
+      margin-right: 30px
+      h3
+        margin-bottom: 35px
+        text-transform: uppercase
+        color: #fff
+      p
+        margin-bottom: 70px
+        font-size: 20px
+        color: #fff
+      .featured-item_person
+        img
+          width: inherit
+          display: inline-block
+          margin-right: 20px
+        .person-infomation
+          display: inline-block
+          vertical-align: middle
+          span
+            display: block
+            text-transform: uppercase
+            color: #fff
+    .owl-nav
+      .owl-prev
+        left: 1%
+        top: 65%
+      .owl-next
+        right: 1%
+        top: 65%
+
+.section-clients
+  padding: 60px 0
+  text-align: center
+  h2
+    font-family: $mainBoldFont
+    font-size: 27px
+    margin-bottom: 50px
+  .client-items
+    overflow: hidden
+    .owl-item
+      display: inline-block
+    .client-item
+      img
+        width: inherit
+        display: inline-block
+        margin: 0 auto
+    .owl-nav
+      .owl-prev
+        left: 20px
+        top: 60%
+      .owl-next
+        right: 20px
+        top: 60%
+
+.section-portfolio
+  padding: 90px 0
+  text-align: center
+  min-width: 480px
+  h2
+    font-family: $mainBoldFont
+    font-size: 27px
+    margin-bottom: 50px
+  p
+    max-width: 970px
+    margin: 0 auto
+    line-height: 32px
+    &:after
+      content: ''
+      display: block
+      height: 7px
+      width: 75px
+      background-color: #e64a19
+      margin: 45px auto 45px
+  .portfolio-filter
+    margin-bottom: 40px
+    .portfolio-filter_item
+      display: inline-block
+      vertical-align: top
+      margin: 0 15px
+      cursor: pointer
+      background: none
+      border: none
+      font-family: $mainBoldFont
+      font-size: 20px
+      &.active,
+      &:hover
+        text-decoration: underline
+  .portfolio-block
+    .portfolio-item
+      display: inline-block
+
+.section-quote
+  background-color: #212121
+  color: #fff
+  padding: 90px 0
+  text-align: center
+  min-width: 480px
+  p
+    width: 100%
+    max-width: 970px
+    font-size: 20px
+    line-height: 34px
+    margin: 0 auto 35px
+    &:before
+      content: ''
+      display: block
+      background: url("../img/general/sprite.png") -263px -91px
+      width: 18px
+      height: 16px
+      margin: 0 auto 30px
+
+.section-team
+  padding: 90px 0
+  text-align: center
+  min-width: 480px
+  h2
+    font-family: $mainBoldFont
+    font-size: 27px
+    margin-bottom: 50px
+  p
+    max-width: 970px
+    line-height: 32px
+    margin: 0 auto 90px
+  .team
+    .team-member
+      display: inline-block
+      width: 20%
+      vertical-align: top
+      margin: 0 15px
+      span
+        display: block
+        &:first-child
+          text-transform: uppercase
+          margin-bottom: 15px
+          font-family: $mainBoldFont
+      &:nth-child(1)
+        &:before
+          content: ''
+          display: block
+          width: 102px
+          height: 109px
+          background: url("../img/general/sprite.png") -146px 0
+          margin: 0 auto 30px
+      &:nth-child(2)
+        &:before
+          content: ''
+          display: block
+          width: 103px
+          height: 104px
+          background: url("../img/general/sprite.png") -117px -124px
+          margin: 0 auto 30px
+      &:nth-child(3)
+        &:before
+          content: ''
+          display: block
+          width: 102px
+          height: 108px
+          background: url("../img/general/sprite.png") 0px -124px
+          margin: 0 auto 30px
+      &:nth-child(4)
+        &:before
+          content: ''
+          display: block
+          width: 131px
+          height: 109px
+          background: url("../img/general/sprite.png") 0 0
+          margin: 0 auto 30px
+.section-facts
+  background: url("../img/general/facts.jpg") no-repeat fixed center
+  background-size: cover
+  padding: 90px 0
+  text-align: center
+  color: #FFFFFF
+  position: relative
+  min-width: 480px
+  .container
+    z-index: 2
+    position: relative
+  &:after
+    content: ''
+    position: absolute
+    background-color: rgba(0,0,0,.5)
+    left: 0
+    top: 0
+    right: 0
+    bottom: 0
+    z-index: 1
+  h2
+    margin-bottom: 60px
+    font-size: 27px
+    font-family: $mainBoldFont
+  .facts-block
+    margin: 0 auto
+    padding: 60px
+    background-color: rgba(255,255,255, .35)
+    max-width: 830px
+    text-align: center
+    vertical-align: top
+    .facts-item
+      display: inline-block
+      width: 40%
+      margin-bottom: 40px
+      span
+        display: block
+        &:first-child
+          font-size: 27px
+          &:after
+            content: ''
+            display: block
+            width: 75px
+            height: 4px
+            margin: 20px auto 10px
+            background-color: #4d4c4b
+        &:last-child
+          font-size: 24px
+.section-articles
+  padding: 90px 0
+  min-width: 480px
+  .articles-row
+    margin-bottom: 50px
+    .articles-item
+      display: inline-block
+      width: 45%
+      margin-right: 50px
+      vertical-align: top
+      &:last-child
+        margin-right: 0
+      img
+        width: 100%
+      .article-text
+        padding-top: 90px
+        margin: 0 auto
+        text-align: center
+        span
+          display: block
+          margin-bottom: 20px
+          color: #555
+        h3
+          margin-bottom: 45px
+          line-height: 32px
+          font-size: 24px
+          font-weight: normal
+        p
+          line-height: 26px
+.section-article_slider
+  padding: 90px 0
+  position: relative
+  min-width: 480px
+  .article-slider
+    overflow: hidden
+    .owl-item
+      display: inline-block
+    .article-slider_item
+      padding: 15px 30px
+      border-left: 5px solid #000
+      span
+        display: block
+    .owl-nav
+      .owl-prev
+        left: 10px
+        top: 45%
+      .owl-next
+        right: 10px
+        top: 45%
+.section-twitter
+  padding: 90px 0
+  text-align: center
+  min-width: 480px
+  .twitter-icon
+    margin-bottom: 60px
+    &:before
+      content: ''
+      display: block
+      background: url("../img/general/sprite.png") -263px -54px
+      width: 27px
+      height: 22px
+      margin: 0 auto 60px
+  p
+    width: 100%
+    max-width: 840px
+    line-height: 32px
+    margin: 0 auto 40px
+    font-size: 20px
+  span
+    font-size: 20px
+    line-height: 38px
+    font-style: italic

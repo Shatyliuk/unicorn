@@ -1,0 +1,208 @@
+extends ../layout/main
+block variables
+    - var title = 'Index'
+block content
+    section.section-who
+        .container
+            h2 Who & Why
+            p The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the evening. But Gregor found it easy to give up having the door open, he had, after all, often failed to make use of it when it was open and, without the family having noticed it, lain in his room in its darkest corner. One time, though, the charwoman left the door.
+    section.section-advantages.section-grey
+        .container
+            .advantages-item
+                h3 An Wow Feature
+                p The gentlemen who rented the room would sometimes take their evening meal at home in the living.
+            .advantages-item
+                h3 A Beautiful Feature
+                p The gentlemen who rented the room would sometimes take their evening meal at home in the living.
+            .advantages-item
+                h3 An Amazing Feature
+                p The gentlemen who rented the room would sometimes take their evening meal at home in the living.
+    section.section-featured-articles
+        .container
+            h2 Featured Articles
+            p The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the
+            .featured-items
+                .featured-item
+                    h3 comic
+                    p A million ways to die in the wild wild west
+                    .featured-item_person
+                        img(src='static/img/content/photo1.png')
+                        .person-infomation
+                            span Jimmy Jefferson
+                            span 21/08/2013
+                .featured-item
+                    h3 lifestyle
+                    p The most comfortable chair comes with no backpain
+                    .featured-item_person
+                        img(src='static/img/content/photo2.png')
+                        .person-infomation
+                            span Gail Guiterrez
+                            span 21/08/2013
+                .featured-item
+                    h3 travel
+                    p Journey to the center of the earth with Jefferson
+                    .featured-item_person
+                        img(src='static/img/content/photo3.png')
+                        .person-infomation
+                            span Mason Johnston
+                            span 21/08/2013
+                .featured-item
+                    h3 comic
+                    p A million ways to die in the wild wild west
+                    .featured-item_person
+                        img(src='static/img/content/photo1.png')
+                        .person-infomation
+                            span Jimmy Jefferson
+                            span 21/08/2013
+                .featured-item
+                    h3 lifestyle
+                    p The most comfortable chair comes with no backpain
+                    .featured-item_person
+                        img(src='static/img/content/photo2.png')
+                        .person-infomation
+                            span Gail Guiterrez
+                            span 21/08/2013
+                .featured-item
+                    h3 travel
+                    p Journey to the center of the earth with Jefferson
+                    .featured-item_person
+                        img(src='static/img/content/photo3.png')
+                        .person-infomation
+                            span Mason Johnston
+                            span 21/08/2013
+    section.section-clients.section-grey
+        .container
+            h2 Clients
+            .client-items
+                .client-item
+                    img(src='static/img/content/clients/clients1.png')
+                .client-item
+                    img(src='static/img/content/clients/clients2.png')
+                .client-item
+                    img(src='static/img/content/clients/clients3.png')
+                .client-item
+                    img(src='static/img/content/clients/clients4.png')
+                .client-item
+                    img(src='static/img/content/clients/clients5.png')
+                .client-item
+                    img(src='static/img/content/clients/clients6.png')
+    section.section-portfolio
+        .container
+            h2 Portfolio & Screenshots
+            p The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the
+            .portfolio-filter
+                button(data-filter='all', type='button' data-sort='random').portfolio-filter_item.active All
+                button(data-filter='.art', type='button' data-sort='random').portfolio-filter_item Art
+                button(data-filter='.mystery', type='button' data-sort='random').portfolio-filter_item Mystery
+                button(data-filter='.illusion', type='button' data-sort='random').portfolio-filter_item Illusion
+                button(data-filter='.travel', type='button' data-sort='random').portfolio-filter_item Travel
+                button(data-filter='.paintings', type='button' data-sort='random').portfolio-filter_item Paintings
+            .portfolio-block
+                .portfolio-item.mix.art.illusion.paintings
+                    img(src='static/img/content/portfolio/portfolio1.jpg', draggable='false')
+                .portfolio-item.mix.mystery
+                    img(src='static/img/content/portfolio/portfolio2.jpg', draggable='false')
+                .portfolio-item.mix.illusonart
+                    img(src='static/img/content/portfolio/portfolio3.jpg', draggable='false')
+                .portfolio-item.mix.paintings.travel
+                    img(src='static/img/content/portfolio/portfolio4.jpg', draggable='false')
+                .portfolio-item.mix.art
+                    img(src='static/img/content/portfolio/portfolio1.jpg', draggable='false')
+                .portfolio-item.mix.mystery
+                    img(src='static/img/content/portfolio/portfolio2.jpg', draggable='false')
+                .portfolio-item.mix.illusion
+                    img(src='static/img/content/portfolio/portfolio3.jpg', draggable='false')
+                .portfolio-item.mix.travelart
+                    img(src='static/img/content/portfolio/portfolio4.jpg', draggable='false')
+                .portfolio-item.mix.travel
+                    img(src='static/img/content/portfolio/portfolio4.jpg', draggable='false')
+    section.section-quote
+        .container
+            p Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.
+            span Denis Waitley
+    section.section-team
+        .container
+            h2 Team Members
+            p The gentlemen who rented the room would sometimes take their evening meal at home in the living room that was used by everyone, and so the door to this room was often kept closed in the
+            .team
+                .team-member
+                    span James Phily
+                    span Lead Developer
+                .team-member
+                    span Cactus Jack
+                    span 3D Model Designer
+                .team-member
+                    span Jack Sparrow
+                    span Master of All Trade
+                .team-member
+                    span Yaga Squarehead
+                    span Manages Money
+    section.section-facts
+        .container
+            h2 Facts & Numbers
+            .facts-block
+                .facts-item
+                    span.count 110
+                    span successful projects
+                .facts-item
+                    span.count 25
+                    span awesome clients
+                .facts-item
+                    span.count 30
+                    span open source plugins
+                .facts-item
+                    span.count 13
+                    span open source themes
+    section.section-articles
+        .container
+            .articles-row
+                .articles-item
+                    .article-text
+                        span Travel / 21st March, 2014
+                        h3 A New Product Is Coming
+                        p The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.
+                .articles-item
+                    img(src='static/img/content/articles/article1.jpg', draggable='false')
+            .articles-row
+                .articles-item
+                    img(src='static/img/content/articles/article2.jpg', draggable='false')
+                .articles-item
+                    .article-text
+                        span Gadget / 3rd March, 2014
+                        h3 Jimmy’s New Xbox Controller
+                        p The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.
+            .articles-row
+                .articles-item
+                    .article-text
+                        span Travel / 21st March, 2014
+                        h3 A New Product Is Coming
+                        p The office assistant was the boss's man, spineless, and with no understanding. What about if he reported sick? But that would be extremely strained and suspicious as in fifteen years of service Gregor had never.
+                .articles-item
+                    img(src='static/img/content/articles/article3.jpg', draggable='false')
+    section.section-article_slider.section-grey
+        .container
+            .article-slider
+                .article-slider_item
+                    h3 Another Day In Paradise
+                    span Travel / 21st March, 2014
+                .article-slider_item
+                    h3 Jimmy’s New Book on Aliens
+                    span Personal / 21st March, 2014
+                .article-slider_item
+                    h3 Sarah’s New House
+                    span Personal / 21st March, 2014
+                .article-slider_item
+                    h3 Another Day In Paradise
+                    span Travel / 21st March, 2014
+                .article-slider_item
+                    h3 Jimmy’s New Book on Aliens
+                    span Personal / 21st March, 2014
+                .article-slider_item
+                    h3 Sarah’s New House
+                    span Personal / 21st March, 2014
+    section.section-twitter
+        .container
+            .twitter-icon
+                img(src='static/img/content/photo2.png')
+            p Happiness cannot be traveled to, owned, earned, or worn. It is the spiritual experience of living every minute with love, grace & gratitude.
+            span @loveless
